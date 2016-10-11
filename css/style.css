@@ -5,28 +5,28 @@
 @import 'https://fonts.googleapis.com/css?family=Oswald';
 
 @font-face {
-	font-family: myFirstFont;
-	src: url(../fonts/CODEBold.otf);
+   font-family: myFirstFont;
+   src: url(../fonts/CODEBold.otf);
 }
 
 @font-face {
-    font-family: 'CoreCircusPierrot2';
-    src: url('../fonts/2DA5DD_0_0.eot');
-    src: url('../fonts/2DA5DD_0_0.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/2DA5DD_0_0.woff2') format('woff2'),
-         url('../fonts/2DA5DD_0_0.woff') format('woff'),
-         url('../fonts/2DA5DD_0_0.ttf') format('truetype');
+   font-family: 'CoreCircusPierrot2';
+   src: url('../fonts/2DA5DD_0_0.eot');
+   src: url('../fonts/2DA5DD_0_0.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/2DA5DD_0_0.woff2') format('woff2'),
+   url('../fonts/2DA5DD_0_0.woff') format('woff'),
+   url('../fonts/2DA5DD_0_0.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'Courgette';
-    src: url('../fonts/Courgette-Regular-webfont.eot');
-    src: url('../fonts/Courgette-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Courgette-Regular-webfont.woff2') format('woff2'),
-         url('../fonts/Courgette-Regular-webfont.woff') format('woff'),
-         url('../fonts/Courgette-Regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+   font-family: 'Courgette';
+   src: url('../fonts/Courgette-Regular-webfont.eot');
+   src: url('../fonts/Courgette-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/Courgette-Regular-webfont.woff2') format('woff2'),
+   url('../fonts/Courgette-Regular-webfont.woff') format('woff'),
+   url('../fonts/Courgette-Regular-webfont.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
 
 }
 
@@ -41,140 +41,146 @@
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-Regular-webfont.eot');
-    src: url('../fonts/Oswald-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Oswald-Regular-webfont.woff2') format('woff2'),
-         url('../fonts/Oswald-Regular-webfont.woff') format('woff'),
-         url('../fonts/Oswald-Regular-webfont.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
+   font-family: 'Oswald';
+   src: url('../fonts/Oswald-Regular-webfont.eot');
+   src: url('../fonts/Oswald-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/Oswald-Regular-webfont.woff2') format('woff2'),
+   url('../fonts/Oswald-Regular-webfont.woff') format('woff'),
+   url('../fonts/Oswald-Regular-webfont.ttf') format('truetype');
+   font-weight: 400;
+   font-style: normal;
 }
 
 @font-face {
-    font-family: 'Oswald';
-    src: url('../fonts/Oswald-Bold-webfont.eot');
-    src: url('../fonts/Oswald-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Oswald-Bold-webfont.woff2') format('woff2'),
-         url('../fonts/Oswald-Bold-webfont.woff') format('woff'),
-         url('../fonts/Oswald-Bold-webfont.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
+   font-family: 'Oswald';
+   src: url('../fonts/Oswald-Bold-webfont.eot');
+   src: url('../fonts/Oswald-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/Oswald-Bold-webfont.woff2') format('woff2'),
+   url('../fonts/Oswald-Bold-webfont.woff') format('woff'),
+   url('../fonts/Oswald-Bold-webfont.ttf') format('truetype');
+   font-weight: 700;
+   font-style: normal;
 }
 
 @font-face {
-    font-family: 'Quantico';
-    src: url('../fonts/Quantico-Bold-webfont.eot');
-    src: url('../fonts/Quantico-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Quantico-Bold-webfont.woff2') format('woff2'),
-         url('../fonts/Quantico-Bold-webfont.woff') format('woff'),
-         url('../fonts/Quantico-Bold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+   font-family: 'Quantico';
+   src: url('../fonts/Quantico-Bold-webfont.eot');
+   src: url('../fonts/Quantico-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+   url('../fonts/Quantico-Bold-webfont.woff2') format('woff2'),
+   url('../fonts/Quantico-Bold-webfont.woff') format('woff'),
+   url('../fonts/Quantico-Bold-webfont.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
 }
 
 
 body {
-	background: url('../img/bground_16x9.jpg') no-repeat center center fixed;
-	background-size: cover;
-	-webkit-background-size: cover;
+   background: url('../img/bground_16x9.jpg') no-repeat center center fixed;
+   background-size: cover;
+   -webkit-background-size: cover;
+   min-height: 100%;
+   position:relative;
 }
-div#main {
-	/*		  width: 100vw;
-	height: 57vw;*/
-	/*overflow: auto;*/
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
 
+div#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4%;
 }
 
 .despo{
-	font-family: 'DaggerSquareOblique';
-	color: #7F2429;
-	font-size: 4em;
+   font-family: 'DaggerSquareOblique';
+   color: #7F2429;
+   font-size: 200%;
 }
 
 footer#navbar-bottom {
-	bottom: 0;
-	width: 100%;
-	background-color: rgba(255,255,255, 0.6);
-	display: flex;
-	/*justify-content: space-between;*/
-	height: 65px;
-	min-height: 50px;
-	align-items: center;
+   position: absolute;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   padding: 1rem;
+   bottom: 0;
+   width: 100%;
+   background-color: rgba(255,255,255, 0.6);
+   display: flex;
+   justify-content: space-between;
+   height: 65px;
+   min-height: 50px;
+   align-items: center;
 }
 
 div#border {
-	text-align: center;
-	/*align-items: center;*/
-	/*justify-content: space-around;*/
-	display: block;
-	margin-top: 30px;
-	width: 320px;
-	min-height: 320px;
-	/*border: 2px solid black;*/
-	margin-bottom: 30px;
+   text-align: center;
+   /*align-items: center;*/
+   /*justify-content: space-around;*/
+   display: block;
+   margin-top: 10px;
+   width: 50%;
+   min-width: 200px;
+   /*min-height: 30%;*/
+   /*border: 2px solid black;*/
+   margin-bottom: 10px;
 }
 
 img#centre-img {
-	width: 50%;
-	/*height: 500px;*/
+   width: 50%;
+   /*height: 500px;*/
 }
 
 div#text {
-	font-size: 30px;
-	font-family: 'DaggerSquare', sans-serif;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	color: #020737;
+   font-size: 30px;
+   font-family: 'DaggerSquare', sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: #020737;
 }
 
 /*-------------options ------------------------------*/
 
 ul#options-list {
-	list-style: none;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	color: black;
-	margin-bottom: 0px;
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   color: black;
+   margin-bottom: 0px;
 }
 
 ul#options-list > a {
-	color: black;
-	text-decoration: none;
+   color: black;
+   text-decoration: none;
 }
 
 li.options {
-	text-decoration: none;
-	font-size: 1.7vw;
-	letter-spacing: -1px;
-	font-family: 'Open Sans Condensed', sans-serif;
-	/*width: 500px;*/
-	margin-left: 15px;
-	margin-right: 15px;
+   text-decoration: none;
+   font-size: 1.7vw;
+   letter-spacing: -1px;
+   font-family: 'Open Sans Condensed', sans-serif;
+   /*width: 500px;*/
+   margin-left: 15px;
+   margin-right: 15px;
 }
 
 li.sponsors, li.contact {
-	cursor: pointer;
+   cursor: pointer;
 
 }
 
 div.contact-info {
-	text-align: center;
-	color: #08105F;
-	font-family: 'Oswald', sans-serif;
-	letter-spacing: 0px;
-	font-size: 27px;
+   text-align: center;
+   color: #08105F;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 0px;
+   font-size: 27px;
 }
 
 div.contact-info  > p.number {
-	font-size: 28px;
-	margin-top: 10px;
+   font-size: 28px;
+   margin-top: 10px;
 }
 
 /* --------------------------------------------------*/
@@ -182,142 +188,169 @@ div.contact-info  > p.number {
 /*------------- social-media ------------------------------*/
 
 div#social-media {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	font-size: 20px;
-	margin-right: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 20px;
+   margin-right: 40px;
 }
 
 div#social-media > a{
-	margin-left: 15px;
-	margin-right: 15px;
+   margin-left: 15px;
+   margin-right: 15px;
 }
 /* --------------------------------------------------*/
 
 /* ----------------- counter -------------------------*/
 div.counter {
-	max-height: 100px;
-	margin: 20px;
-	margin-bottom: 50px;
-	margin-top: 10px;
-	text-shadow: 0 1px 5px #fff;
-	display: flex;
-	justify-content: space-between;
-	width: 45%;
+   margin-bottom: 50px;
+   margin-top: 1vh;
+   text-shadow: 0 1px 5px #fff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 50%;
+   /*border: 1px solid black;*/
 }
 
 div.days-wrapper, div.hours-wrapper, div.minutes-wrapper, div.seconds-wrapper {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 105px;
-	height: 105px;
-	margin: 0 10px;
-	padding-top: 20px;
-	background: rgba(255,255,255,0);
-	font-size: 16px;
-	/*-moz-border-radius: 50%;*/
-	/*-webkit-border-radius: 50%;*/
-	/*border-radius: 50%;*/
-	color: #E47405;
-	border: 3px solid rgba(228, 116, 5, 0.6);
-	font-family: 'Iceland', sans-serif;
-	font-weight: 600;
-	text-transform: uppercase;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /*height: 100%;*/
+   /*margin: 0 10%;*/
+   padding-top: 20px;
+   background: rgba(255,255,255,0);
+   /*font-size: 10%;*/
+   border-radius: 50%;
+   -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
+   color: #E47405;
+   font-family: 'Iceland', sans-serif;
+   font-weight: 600;
+   text-transform: uppercase;
 }
 
 span.days, span.minutes, span.hours, span.seconds {
-	letter-spacing: -4px;
-	font-weight: 600;
-	margin-bottom: 0px;
-	margin-top: -5px;
-	font-size: 50px;
-	line-height: 70px;
-	letter-spacing: 1px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 6.5vw;
+    height: 6.5vw;
+    border: 3px solid rgba(228, 116, 5, 0.6);
+    letter-spacing: -4px;
+    font-weight: 600;
+    margin-bottom: -15px;
+    margin-top: -5px;
+    font-size: 4.5vw;;
+    /*line-height: 70px;*/
+    letter-spacing: 1px;
 }
 
 /* --------------------------------------------------*/
 
 /* ------------------------- media queries ------------------------------*/
 @media (min-width: 1280px) {
-	li.options {
-		font-size: 25px;
-	}
+   li.options {
+      font-size: 25px;
+  }
+  img#centre-img {
+   width: 27%;
+}
+
+.despo {
+    font-size: 300%;
+}
 }
 
 @media (min-width: 979px) and (max-width: 1280px) {
-	li.options {
-		font-size: 22px;
-	}
+   li.options {
+      font-size: 22px;
+  }
+  img#centre-img {
+   width: 30%;
+}
+
+.despo {
+    font-size: 300%;
+}
 }
 
 @media (min-width: 768px) and (max-width: 979px) {
-	li.options {
-		font-size: 22px;
-	}
-	div.counter {
-		width: auto;
-	}
+   li.options {
+      font-size: 22px;
+  }
+
+  img#centre-img {
+   width: 35%;
+}
+
+.despo {
+    font-size: 300%;
+}
+
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
 
-	div#text {
-		font-size: 22px;
-	}
-	li.options {
-		font-size: 22px;
-	}
+  div#text {
+      font-size: 22px;
+  }
+  li.options {
+      font-size: 22px;
+  }
 
-	footer#navbar-bottom {
-		justify-content: space-around;
-		height: 50px;
-	}
+  footer#navbar-bottom {
+      justify-content: space-around;
+      height: 50px;
+  }
 
-	ul#options-list {
-		justify-content: space-between;
-		padding: 0px;
-	}
+  ul#options-list {
+      justify-content: space-around;
+      padding: 0px;
+  }
 
-	li.options:first {
-		/*margin: 0px;*/
-	}
+  li.options:first {
+      /*margin: 0px;*/
+  }
 
-	div.days-wrapper, div.hours-wrapper, div.minutes-wrapper, div.seconds-wrapper {
-		width: 95px;
-		height: 95px;
-	}
-	div.counter {
-		width: auto;
-	}
 }
 
 @media (max-width: 480px) {
 
-	ul#options-list {
-		justify-content: space-between;
-		padding: 0px;
-	}
+   ul#options-list {
+      justify-content: space-around;
+      padding: 0px;
+  }
 
-	div#text {
-		font-size: 18px;
-	}
+  div#text {
+      font-size: 18px;
+  }
 
-	li.options {
-		font-size: 18px;
-	}
-	footer#navbar-bottom {
-		justify-content: space-around;
-		height: 50px;
-	}
-	div.days-wrapper, div.hours-wrapper, div.minutes-wrapper, div.seconds-wrapper {
-		width: 95px;
-		height: 95px;
-	}
-	div.counter {
-		width: auto;
-	}
+  li.options {
+      font-size: 18px;
+  }
+  footer#navbar-bottom {
+      justify-content: space-around;
+      height: 50px;
+  }
+
+  div.counter {
+    margin-top: 0.3vw;
+}
+
+span.days, span.minutes, span.hours, span.seconds {
+    width: 9vw;
+    height: 9vw;
+    padding: 0.4vw;
+    font-size: 5.5vw;
+    margin-bottom: -1.5vw;
+}
+
+div.days-wrapper, div.hours-wrapper, div.minutes-wrapper, div.seconds-wrapper {
+    font-size: 2.5vw;
+}
+
 }
 
 /* --------------------------------------------------*/
